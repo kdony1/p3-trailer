@@ -1,0 +1,107 @@
+/********************
+OVERRIDE MEDIA ELEMENT PLAYER STYLING
+*******************/
+.mejs-378 {
+	padding-top: 5px;
+
+}
+/* Wrapper container */
+.mejs-container,
+.mejs-overlay {
+	
+	
+	
+	
+ 
+	
+	/* Hack around Media Element Player */
+	width: 100% !important;
+}
+
+
+.grid-6 {
+	background: rgba(255,255,255, 0.5);
+
+}
+
+h3 {
+	color: hotpink;
+	font-family: Helvetica; 
+	font-size: 30px;
+}
+
+p {
+	font: Arial;
+	line-height: 22px;
+}
+
+
+
+/* [] 1. Change overlayed play button */
+.mejs-378 .mejs-overlay-button {
+	
+ 
+}
+
+/* [] 2. Control Wrapper Positioning */
+.mejs-378 .mejs-controls {
+color: black;
+}
+
+/* [] 3. Play Button */
+.mejs-378 .mejs-controls .mejs-play button {
+	
+
+
+	
+}
+
+/* [] 4. Current Time Display */
+.mejs-378 .mejs-controls .mejs-currenttime {
+	
+ 
+	
+}
+
+/* [] 5. Rail: Current Loaded, To Load, & Background */
+.mejs-378 .mejs-controls div.mejs-time-rail {
+
+ 	background: hotpink;
+}
+
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background: green;
+}
+
+.mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: red;
+}
+
+
+body { 
+  background: url(../img/mc.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ADD MORE STYLING. MAKE IT YOUR OWN. */
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 769px) {
+	
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+}
