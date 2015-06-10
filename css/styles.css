@@ -2,7 +2,7 @@
 OVERRIDE MEDIA ELEMENT PLAYER STYLING
 *******************/
 .mejs-378 {
-	padding-top: 5px;
+	margin-top: 0px;
 
 }
 /* Wrapper container */
@@ -23,11 +23,15 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 	background: rgba(255,255,255, 0.5);
 
 }
+h1 {
+	text-transform: uppercase;
+	font-size: 50px;
+	padding: 0;
+}
 
 h3 {
 	color: hotpink;
 	font-family: Helvetica; 
-	font-size: 30px;
 }
 
 p {
